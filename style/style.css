@@ -1,0 +1,118 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+marquee
+{
+    font-size: 54px;
+    color:rgb(184, 10, 207);
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 0.6%;
+}
+.border{
+    border:3px solid red;
+    width: 37%;
+    height: 32.8em;
+    position:absolute;
+    left: 32.5%;
+    top: 20%;
+    background-color:rgba(247, 130, 119, 0.874);
+}
+div{
+    position: relative;
+}
+.border1{
+    border:3px solid rgb(0, 255, 42);
+    width: 30.3%;
+    height: 19em;
+    position:absolute;
+    left: 36%;
+    top: 55%;
+    background-color: blueviolet;
+}
+.input{
+    width: 7%;
+    font-size: 40px;
+    position: relative;
+    left: 1.3%;
+    top: 1.1em;
+    background-color:wheat;
+    border-radius: 1em;
+    border-width: 2px;
+}
+ .operation{
+    width: 7%;
+    font-size: 40px;
+    position: relative;
+    left: 1.3%;
+    top: 1.1em;
+    background-color: rgb(245, 15, 195);
+    cursor: pointer;
+    border-width: 2px;
+    border-radius: 2px;
+}
+.display{
+    top: 26px;
+    position: relative;
+}
+.result{
+    width: 29.1%;
+    font-size:43px;
+    border-width: 3px;
+    background-color: rgb(243, 182, 107);
+}
+.operand{
+    width: 13.3%;
+    font-size: 22px;
+    border-width:3px;
+    background-color: rgb(122, 244, 244);
+    cursor: pointer;
+}
+label{
+    font-size: 21px;
+}
+.input:hover{
+    background-color:rgb(38, 255, 0);
+}
+.operation:hover
+{
+   background-color:rgb(0, 34, 255);
+}
+.operand:hover{
+    background-color:#EEEEEE;
+}
+.input:active{
+    transform: scale(0.89);
+}
+.operation:active{
+    transform: scale(0.89);
+}
+.button{
+    position:absolute;
+    left: 43%; 
+    top:45%;
+    width: 14%; 
+    height: 10%;
+    font-size: 40px; 
+    border-radius:2em;
+    border-color: red;
+    background-color: rgba(13, 52, 227, 0.907);
+}
+.button:hover{
+    background-color:#ba00f3d8;
+}
+.button:active{
+    transform: scale(0.8);
+}
+.marquee
+{
+    transform:translateX(56%);
+     color:rgb(81, 255, 0);
+     position:fixed;
+}
+  @media only screen and (min-width: 769px) and (max-width: 1024px){
+    .container{
+        width: 100%;
+    }
+    }
